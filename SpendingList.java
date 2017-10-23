@@ -1,4 +1,4 @@
-import java.util.Date;
+nimport java.util.Date;
 
 /**
  * CarpeDime - SpendingList.java
@@ -7,7 +7,7 @@ import java.util.Date;
  * @author Victor Gomes
  * @author Griffin Stiller
  * 
- * Class for creating a User object and appropriate methods for the 
+ * Class for creating a SpendingList and appropriate methods for the 
  * basis of CarpeDime. 
  * 
  * 	Other required classes:
