@@ -47,10 +47,10 @@ public class User {
 	 * 	double percentSpend		the percentage of income to put towards spending.
 	 * 	double totalSave		the amount of savings to begin with.
 	 * 	double totalSpend		the amount of spending money to begin with.
-	 * 	String UN 				user name.
+	 * 	String UN 			user name.
 	 * 
 	 * Return:
-	 * 	user					initialized User object.
+	 * 	user				initialized User object.
 	 */
 	public User newUser(double percentSave, double percentSpend, 
 						double totalSave, double totalSpend, String UN) {
@@ -141,7 +141,7 @@ public class User {
 	 * monthly spending.
 	 * 
 	 * Parameters:
-	 * 	String date			the date of the transaction.	
+	 * 	String date		the date of the transaction.	
 	 * 	String descrip		a short description of what was purchased.
 	 * 	double spent		total amount spent on the transaction.
 	 */
@@ -199,7 +199,7 @@ public class User {
 	 * 
 	 * Return:
 	 * 	true, a valid newPercent was entered
-	 *  false, an invalid newPercent was entered.
+	 *  	false, an invalid newPercent was entered.
 	 */
 	public boolean setPercentSave(double newPercent) {
 
@@ -223,7 +223,7 @@ public class User {
 	 * 
 	 * Return:
 	 * 	true, a valid newPercent was entered
-	 *  false, an invalid newPercent was entered.
+	 *  	false, an invalid newPercent was entered.
 	 */
 	public boolean setPercentSpend(double newPercent) {
 
@@ -267,7 +267,7 @@ public class User {
 	 * Checks for a valid savings and spending ratio.
 	 * 
 	 * Parameters:
-	 * 	double save			saving percentage
+	 * 	double save		saving percentage
 	 * 	double spend		spending percentage
 	 */
 	private boolean checkPercent(double save, double spend) {
