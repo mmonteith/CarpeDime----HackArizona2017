@@ -10,10 +10,10 @@ Created by: Victor Gomes, Michelle Monteith, and Griffin Stiller.
 
 Relevant Files
 -----------------------------------
-User.java                 our user object which keeps track of all their data.
-Spending.java             an object that represents a purchase.
-SpendingList.java         a list of spending objects and necessary functions.
-GUI.java                  a not very functioning GUI, values were hardcoded for the presentation to get the idea across, but we were unable to have our classes function with the GUI.
+User.java - our user object which keeps track of all their data.
+Spending.java - an object that represents a purchase.
+SpendingList.java - a list of spending objects and necessary functions.
+GUI.java - a not very functioning GUI, values were hardcoded for the presentation to get the idea across, but we were unable to have our classes function with the GUI.
 
 Disclaimer: none of us had experience creating a GUI from scratch, so we based ours after previous
 GUI's supplied by our professor, Rick Mercer, and used an Eclipse addon WindowBuilder to help create
